@@ -1,0 +1,12 @@
+server:
+  port: 8084
+
+spring:
+  application:
+    name: fishy-dashboard
+
+fishy-user:
+  ribbon:
+    eureka: false
+  listOfServers: localhost:8081,localhost:8086
+  ServerListRefreshInterval: 15000

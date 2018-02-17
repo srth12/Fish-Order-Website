@@ -1,0 +1,15 @@
+
+fish-dashboard/mvnw
+*.cmd
+*.jar
+*.jar
+FIsh-Repo/.gitattributes
+*.jar
+fish-user-service/.mvn/wrapper/maven-wrapper.properties
+fish-user-service/mvnw
+fishy/.DS_Store
+fishy/src/main/java/.DS_Store
+fishy/src/main/java/com/.DS_Store
+fishy/src/main/java/com/fishy/.DS_Store
+fish-user-service/.mvn/wrapper/maven-wrapper.jar
+.DS_Store
