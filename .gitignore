@@ -13,3 +13,6 @@ fishy/src/main/java/com/.DS_Store
 fishy/src/main/java/com/fishy/.DS_Store
 fish-user-service/.mvn/wrapper/maven-wrapper.jar
 .DS_Store
+fishy-eureka-service/mvnw
+*.jar
+fishy-eureka-service/.mvn/wrapper/maven-wrapper.jar
