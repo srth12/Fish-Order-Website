@@ -1,25 +1,15 @@
-package com.fishy.fishy;
+package com.fishy.dashboard.fishdashboard;
 
-import javax.persistence.*;
-
-@Entity
-@Table(name = "FISH")
 public final class Fish {
 
     public Fish() {
     }
 
-    @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
-    @Column(name = "ID")
     private long id;
 
-    @Column(name = "QUANTITY")
     private int quantity;
-    @Column(name = "NAME")
     private String name;
 
-    @Column(name = "PRICE")
     private double price;
 
     public Fish(int quantity, String name, double price) {

@@ -7,6 +7,18 @@ spring:
 
 fishy-user:
   ribbon:
-    eureka: false
-  listOfServers: localhost:8081,localhost:8086
-  ServerListRefreshInterval: 15000
+    eureka: true
+
+
+eureka:
+  instance:
+    leaseRenewalIntervalInSeconds: 1
+    leaseExpirationDurationInSeconds: 2
+  client:
+    service-url:
+      defaultZone: http://localhost:8090/eureka
+    healthcheck:
+      enabled: true
+    lease:
+      duration: 5
+
